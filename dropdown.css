@@ -3,10 +3,9 @@
     padding: 0;
 }
 
-/* body {
-    background-image: "https://picsum.photos/id/870/200/300?grayscale&blur=2";
+#homepage {
     width: 100%;
-} */
+}
 
 nav {
     width: 100%;
@@ -25,7 +24,6 @@ nav p {
 
 nav ul {
     float: left;
-    line-height: 55px;
 }
 
 nav ul li {
@@ -34,22 +32,19 @@ nav ul li {
     position: relative;
     
 }
-
 nav ul li a {
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     color: #222;
     font-size: 14px;
-    padding: 20px 14px;
-    float: left;
-    padding: 0px 20px;
+    padding: 22px 10px;
     text-decoration: none;
 }
 nav ul li ul {
     display: none;
     position: absolute;
     background-color: lightblue;
-    padding: 10px;
+    padding: 5px;
 
 }
 nav ul li:hover ul{
@@ -61,13 +56,8 @@ nav ul li ul li {
     border-radius: 4px 4px 4px 4px;
 }
 nav ul li ul li a {
-    padding: 8px 14px;
-    position: absolute;
-    background-color: lightblue;
-
+    padding: 12px 10px;
 }
-nav ul li ul li a :hover{
-    padding: 8px 14px;
-    position: absolute;
+nav ul li ul li a:hover{
     background-color: #f3f3f3;
 }
