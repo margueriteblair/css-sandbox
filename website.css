@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+nav p {
+    float: left;
+}
+
+nav ul{
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+#static {
+    position: static;
+}
+
+#relative{
+    position: relative;
+}
