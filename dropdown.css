@@ -19,12 +19,12 @@ nav p {
     color: #222;
     font-size: 24px;
     line-height: 55px;
-    float: left;
+    float: right;
     padding: 0px 20px;
 }
 
 nav ul {
-    float: left;
+    float: right;
 }
 
 nav ul li {
@@ -85,4 +85,8 @@ nav ul li ul li a:hover{
 .cards {
     display: flex;
     justify-content: space-between;
+}
+.cards .card p:hover {
+    font-size: larger;
+    font-style:bold;
 }
