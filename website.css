@@ -50,7 +50,7 @@ nav ul li:hover ul {
 
 nav ul li ul li {
     width: 180px;
-    height: 50px;
+    /* height: 50px; */
     border-radius: 4px 4px 4px 4px;
 }
 
@@ -66,4 +66,18 @@ nav ul li ul li a:hover {
 .cards {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 260px;
+    right: 60px;
 }
+
+.cards .card p {
+    text-align: center;
+}
+#homepage {
+    position: relative;
+    top: 40px;
+}
+
+
