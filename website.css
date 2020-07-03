@@ -8,7 +8,7 @@ nav {
     height: 60px;
     background-color: cornflowerblue;
     margin-bottom: 0px;
-    position: fixed;
+    position: static;
 }
 
 nav p {
@@ -60,6 +60,7 @@ nav ul li ul li a:hover {
 
 #header{
     width: 100%;
+
     /* height: 400px; */
 }
 
@@ -67,17 +68,20 @@ nav ul li ul li a:hover {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
-    position: absolute;
-    top: 260px;
-    right: 60px;
+    /* position: absolute; */
+    /* top: 260px;
+    right: 50%; */
 }
 
 .cards .card p {
     text-align: center;
 }
-#homepage {
-    position: relative;
-    top: 40px;
-}
+
+/* .cards .card:hover {
+    box-shadow: black;
+} */
+/* #homepage {
+    /* position: relative; */
+/* }  */
 
 
