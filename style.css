@@ -5,7 +5,9 @@
 }
 
 body {
-    background-color: tomato;
+    /* background-color: tomato; */
+    background-image: url("airballoon.jpg");
+    /* background-image: radial-gradient(red,yellow); */
 }
 
 ul {
