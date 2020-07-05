@@ -10,9 +10,6 @@ body {
     /* background-image: radial-gradient(red,yellow); */
 }
 
-ul {
-
-}
 
 nav {
     width: 100%;
@@ -56,9 +53,14 @@ ul li {
 }
 
 .cards .card img {
-    border-radius: 200px;
+    border-radius: 6px;
 }
 
 .cards .card img:hover {
-    box-shadow:10px 10px 5px #f3f3f3 ;
+    box-shadow:10px 10px 5px gray ;
+}
+
+.cards .card a {
+    text-decoration: none;
+    color: black
 }
