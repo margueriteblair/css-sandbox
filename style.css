@@ -64,3 +64,7 @@ ul li {
     text-decoration: none;
     color: black
 }
+
+#space-filler h1, h3 {
+    text-align:center;
+}
