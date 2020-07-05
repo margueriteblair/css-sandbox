@@ -5,8 +5,8 @@
 }
 
 body {
-    /* background-color: tomato; */
-    background-image: url("airballoon.jpg");
+    background-color: tomato;
+    /* background-image: url("airballoon.jpg"); */
     /* background-image: radial-gradient(red,yellow); */
 }
 
@@ -39,4 +39,26 @@ ul li {
 
 #container {
     margin: 20px 100px 0px 100px;
+}
+
+.cards {
+    justify-content: space-between;
+    display: flex;
+}
+
+#space-filler {
+    height: 300px;
+    width: 100%;
+}
+
+.cards .card p {
+    text-align: center;
+}
+
+.cards .card img {
+    border-radius: 200px;
+}
+
+.cards .card img:hover {
+    box-shadow:10px 10px 5px #f3f3f3 ;
 }
