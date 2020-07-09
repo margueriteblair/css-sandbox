@@ -24,9 +24,20 @@
         function initMap() {
             let location = {
                 lat: 41.824459,
-                long: -71.412750
+                lng: -71.412750
             };
+            let map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4, 
+                center: location
+            });
+            let marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
         }
+    </script>
+    <script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAIoZqMZwFMADKiEZTz78lfJbC3Q0rqWWA&callback=initMap'>
+
     </script>
 
     
